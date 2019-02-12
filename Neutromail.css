@@ -36,6 +36,10 @@ body .Position_Header ul {
 .Language a {
   color: #959595;
 }
+.Language a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
 
 ul.Language li.Select {
   color: #959595;
@@ -84,6 +88,13 @@ ul.Language li + li::before {
   height: 16px;
   vertical-align: middle;
 }
+.Navigation a:hover {
+  text-decoration: underline;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f6f4f7;
+  font-weight: bolder;
+}
 .Log_in {
   font-weight: bolder;
   padding-left: 10px;
@@ -98,7 +109,7 @@ ul.Language li + li::before {
   height: 40px;
   box-shadow: 0px 7px 9px rgba(142, 117, 222, 0.15);
   background-color: #582c7e;
-  background: linear-gradient(to bottom right,#60326c, #646c93);
+  background: linear-gradient(to bottom right, #60326c, #646c93);
 }
 .Social_Network {
   display: flex;
@@ -128,7 +139,7 @@ ul.Language li + li::before {
 div .Secure_Create {
   align-self: stretch;
 
- height: 800px;
+  height: 800px;
   background-image: url(./Picture/neut.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -138,7 +149,6 @@ div .Secure_Create {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-
 }
 .Secure {
   padding-top: 180px;
@@ -153,7 +163,6 @@ div .Secure_Create {
 .Secure_Create span .Somewhere {
   color: #fc444a;
 }
-
 .Secure h1 {
   font-size: 60px;
   letter-spacing: 1px;
@@ -162,33 +171,57 @@ div .Secure_Create {
   font-weight: 600;
   margin: 0;
 }
-.Create{
-  padding-top: 80px;  
+.Create {
+  padding-top: 80px;
+  padding-bottom: 400px;  
+  flex-basis: 50%;
 }
-.Create a{
-  width: 46px;
-  height: 46px;
-  border-radius: 23px;
-  padding: 15px;
-  background-color: #5f2966;
-  vertical-align: middle;
 
-}
-a.Create_Account{
+a.Create_Account {
   width: 246px;
   height: 56px;
   border-radius: 28px;
-  box-shadow: 0px 7px 9px rgba(100,115,151,0.15);
+  box-shadow: 0px 7px 9px rgba(100, 115, 151, 0.15);
   background-color: #5f2966;
   color: white;
   padding: 20px 60px;
   margin-right: 20px;
   text-decoration: none;
-  background:linear-gradient(to right,#646c93,#60326c);
+  background: linear-gradient(to right, #646c93, #60326c);
 }
-.Create img{
+.Create img {
   width: 30px;
   height: 30px;
-  vertical-align:middle;
-  display:inline-block;
+  padding: 15px 15px;
+  margin-right: 20px;
+  vertical-align: middle;
+  background-color: #5f2966;
+  background: linear-gradient(to right, #646c93, #60326c);
+  border-radius: 100px;
+}
+div.Swiss_Double_Anonymous{
+  padding: 0px 200px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;  
+}
+.Swiss_Double_Anonymous ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  }
+.Swiss_Double_Anonymous li{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Swiss_Double_Anonymous img{
+  margin-right: 15px;
+}
+.Text_Format h3{
+  padding: 0;
+  margin: 0;
 }
